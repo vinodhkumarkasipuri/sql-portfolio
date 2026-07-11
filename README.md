@@ -1,133 +1,270 @@
 # 🗄️ SQL Portfolio
 
-> **Mastering SQL through hands-on practice, real-world case studies, and interview-focused learning.**
+> A structured collection of SQL concepts, query examples, real-world case studies, interview preparation, and best practices.
 
 ---
 
-## 📖 About This Repository
+# 📖 About This Repository
 
-Welcome to my SQL Portfolio!
+This repository is a comprehensive collection of SQL concepts, practical examples, business case studies, and interview-focused exercises.
 
-This repository documents my journey of learning SQL from beginner to advanced through structured notes, hands-on practice, real-world case studies, and interview preparation.
+It serves as a centralized SQL knowledge base containing structured notes, reusable SQL scripts, query-writing techniques, database design concepts, and real-world problem-solving examples.
 
-The goal of this repository is to build strong SQL fundamentals while understanding how SQL is used in real-world data engineering and analytics projects.
+The content is organized progressively from SQL fundamentals to advanced SQL topics, making it useful as both a technical reference and a practical portfolio.
 
 ---
 
 # 🎯 Repository Objectives
 
-- Learn SQL from beginner to advanced.
-- Master SQL query writing.
-- Understand database design concepts.
-- Solve real-world business problems.
-- Practice SQL interview questions.
-- Build a professional SQL portfolio.
+- Build a structured SQL knowledge repository.
+- Practice SQL using real-world business scenarios.
+- Document commonly used SQL concepts and techniques.
+- Maintain reusable SQL scripts and examples.
+- Improve query writing and problem-solving skills.
+- Cover SQL interview questions and case studies.
+- Create a comprehensive SQL reference for future projects.
 
 ---
 
-# 📚 Learning Roadmap
+# 📚 Topics Covered
 
-## 🟢 SQL Fundamentals
+## SQL Fundamentals
 
-- DBMS Concepts
+- Introduction to DBMS
 - SQL Server Installation
 - Database Architecture
-- Data Types
+- SQL Data Types
 - Business Integrity
-- Keys
-- Data Modeling
+- Primary Keys
+- Foreign Keys
 - Constraints
+- Data Modeling
+- Cascade Features
+- Check Constraints
 - Triggers
-- SQL Commands
 
 ---
 
-## 🟡 Intermediate SQL
+## SQL Commands
 
-- Aggregate Functions
+- DDL
+- DML
+- DCL
+- TCL
+- CRUD Operations
+
+---
+
+## Database Objects
+
+- Databases
+- Tables
+- System Databases
+- System Tables
+- Identity Columns
+- Temporary Tables
+
+---
+
+## Query Writing
+
+- SELECT
+- WHERE
+- ORDER BY
+- DISTINCT
+- TOP
+- INTO
+- CAST
+- CONVERT
+
+---
+
+## SQL Functions
+
+### Aggregate Functions
+
+- COUNT()
+- SUM()
+- AVG()
+- MIN()
+- MAX()
+
+### Date Functions
+
+- GETDATE()
+- DATEADD()
+- DATEDIFF()
+- DATENAME()
+- DATEPART()
+
+### String Functions
+
+- LEN()
+- LEFT()
+- RIGHT()
+- SUBSTRING()
+- REPLACE()
+- UPPER()
+- LOWER()
+- TRIM()
+
+---
+
+## Joins
+
+- Inner Join
+- Left Join
+- Right Join
+- Full Join
+- Cross Join
+- Self Join
+
+---
+
+## Set Operators
+
+- UNION
+- UNION ALL
+
+---
+
+## Grouping
+
 - GROUP BY
 - HAVING
-- Date Functions
-- Temporary Tables
-- Joins
-- UNION
-- String Functions
-- CAST & CONVERT
+- ROLLUP
+- CUBE
 
 ---
 
-## 🔴 Advanced SQL
+## Subqueries
 
-- Subqueries
+- Single Row Subqueries
+- Multiple Row Subqueries
 - Correlated Subqueries
 - Derived Tables
-- Common Table Expressions (CTE)
-- Ranking Functions
-- Window Functions
-- LEAD & LAG
-- MERGE
-- Running Totals
-- Indexes
 
 ---
 
-## 🏢 Case Studies
+## Common Table Expressions (CTE)
+
+- Basic CTE
+- Recursive CTE
+- CTE vs Derived Tables
+- CTE vs Temporary Tables
+
+---
+
+## Window Functions
+
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- NTILE()
+- LEAD()
+- LAG()
+- Running Total
+
+---
+
+## Advanced SQL
+
+- MERGE
+- Remove Duplicates
+- Incremental Loading
+- OLTP vs OLAP
+- Data Warehouse Concepts
+
+---
+
+## Performance Optimization
+
+- Clustered Indexes
+- Non-Clustered Indexes
+- Index Optimization
+- Query Performance
+
+---
+
+## Business Case Studies
 
 - School Management System
-- Supplier Management
-- Banking (iBank)
-- Sales Analytics
-- Customer Analytics
+- Supplier Management System
+- Banking Case Study
+- iBank Project
+- Business Reporting Scenarios
 
 ---
 
-## 💻 Repository Structure
+## Interview Preparation
 
-```text
+- SQL Interview Questions
+- Scenario-Based Questions
+- Query Writing Challenges
+- Real-World SQL Problems
+
+---
+
+# 📂 Repository Structure
+
+```
 sql-portfolio/
+
 │
 ├── README.md
-├── 01-dbms-concepts
-├── 02-installation
+│
+├── 01-dbms-introduction
+├── 02-sql-server-installation
 ├── 03-database-architecture
 ├── 04-data-types
-├── ...
-├── Case Studies
-├── Interview Questions
-└── Projects
+├── 05-business-integrity
+├── 06-keys
+├── 07-data-modeling
+├── 08-sql-commands
+├── 09-query-writing
+├── 10-functions
+├── 11-joins
+├── 12-subqueries
+├── 13-cte
+├── 14-window-functions
+├── 15-case-studies
+├── 16-performance-tuning
+├── 17-interview-questions
+└── ...
 ```
 
 ---
 
-# 🛠️ Tools Used
+# 💻 Tools Used
 
-- SQL Server
-- Databricks Community Edition
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- Azure Data Studio
+- Databricks SQL
 - Git
 - GitHub
 
 ---
 
-# 🎯 Learning Goal
+# 📌 Repository Features
 
-My goal is to become an **Azure Data Engineer** by mastering SQL, Python, Databricks, Azure, and Data Engineering concepts.
-
----
-
-# 📈 Repository Status
-
-| Module | Status |
-|---------|--------|
-| SQL Fundamentals | 🟢 In Progress |
-| Intermediate SQL | ⏳ Planned |
-| Advanced SQL | ⏳ Planned |
-| Case Studies | ⏳ Planned |
-| Interview Preparation | ⏳ Planned |
+- Structured SQL Notes
+- Practical SQL Scripts
+- Business Case Studies
+- Real-World Examples
+- Interview Questions
+- Query Optimization Techniques
+- Progressive Learning Structure
+- Version Controlled using Git
 
 ---
 
-# 🌟 About This Portfolio
+# 🚀 Continuous Updates
 
-This repository represents my continuous learning journey in SQL. Every topic includes theory, examples, practice exercises, business scenarios, interview questions, common mistakes, and best practices.
+This repository is continuously expanded with additional SQL concepts, practical examples, optimization techniques, business case studies, and interview-oriented exercises.
 
-I will continue updating this repository as I learn and grow.
+---
+
+# ⭐ Repository Purpose
+
+The primary purpose of this repository is to maintain a structured collection of SQL knowledge, practical examples, reusable scripts, and real-world scenarios that can serve as a long-term technical reference and portfolio.
